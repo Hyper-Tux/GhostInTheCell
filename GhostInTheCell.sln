@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostInTheCell", "GhostInTheCell\GhostInTheCell.csproj", "{A3855A36-B043-4738-A7F3-52F134AA4EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGraph", "TestGraph\TestGraph.csproj", "{DF6CBC0A-378C-4873-8B1F-4D7C06D4C931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestArray2D", "TestArray2D\TestArray2D.csproj", "{7E43043F-94FE-4838-A48F-68C5568789CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3855A36-B043-4738-A7F3-52F134AA4EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3855A36-B043-4738-A7F3-52F134AA4EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3855A36-B043-4738-A7F3-52F134AA4EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3855A36-B043-4738-A7F3-52F134AA4EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6CBC0A-378C-4873-8B1F-4D7C06D4C931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6CBC0A-378C-4873-8B1F-4D7C06D4C931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6CBC0A-378C-4873-8B1F-4D7C06D4C931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6CBC0A-378C-4873-8B1F-4D7C06D4C931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E43043F-94FE-4838-A48F-68C5568789CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E43043F-94FE-4838-A48F-68C5568789CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E43043F-94FE-4838-A48F-68C5568789CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E43043F-94FE-4838-A48F-68C5568789CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
