@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhostInTheCell.Controllers
 {
-    public class Graph
+    public class Graph : Utils.Singleton<Graph>
     {
         // Private member-variables
         // ------------------------
@@ -18,11 +18,11 @@ namespace GhostInTheCell.Controllers
         // Constructors
         // ------------
 
-        public Graph(int factoryNumber)
-        {
-            this._factoriesArray = new Factory[factoryNumber];
-            this._links2DArray = new Link[factoryNumber, factoryNumber];
-        }
+        //public Graph(int factoryNumber)
+        //{
+        //    this._factoriesArray = new Factory[factoryNumber];
+        //    this._links2DArray = new Link[factoryNumber, factoryNumber];
+        //}
 
         // Accessors
         // ---------

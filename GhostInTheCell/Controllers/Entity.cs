@@ -26,12 +26,12 @@ namespace GhostInTheCell.Controllers
             this._idEntity = id;
         }
 
-        public Entity(uint id, int owner, uint numOfCyborgs)
-            : this(id)
-        {
-            this._owner = owner;
-            this._numOfCyborgs = numOfCyborgs;
-        }
+        //public Entity(uint id, int owner, uint numOfCyborgs)
+        //    : this(id)
+        //{
+        //    this._owner = owner;
+        //    this._numOfCyborgs = numOfCyborgs;
+        //}
 
         // Accessors
         // ---------

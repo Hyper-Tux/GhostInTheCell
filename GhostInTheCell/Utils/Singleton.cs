@@ -9,7 +9,7 @@ namespace GhostInTheCell.Utils
     public abstract class Singleton<T> where T : new()
     {
         protected static T _singletonInstance;
-        public static T I
+        public static T Instance
         {
             get
             {
