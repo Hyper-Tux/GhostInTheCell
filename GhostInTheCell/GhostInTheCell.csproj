@@ -55,9 +55,9 @@
     <Compile Include="DAO\LinkDAO.cs" />
     <Compile Include="DAO\Ressources.cs" />
     <Compile Include="DAO\TroopDAO.cs" />
-    <Compile Include="Players\Owner.cs" />
-    <Compile Include="Players\Player.cs" />
-    <Compile Include="Players\Team.cs" />
+    <Compile Include="Controllers\Players\Owner.cs" />
+    <Compile Include="Controllers\Players\Player.cs" />
+    <Compile Include="Controllers\Players\Team.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\LinQUtils.cs" />

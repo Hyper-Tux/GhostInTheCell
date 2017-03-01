@@ -37,7 +37,7 @@ namespace GhostInTheCell.Controllers
         }
 
         public int Units { get { return 1; } }
-        public OwnerEnum Owner { get { return OwnerEnum.Neutral; } }
+        
         public static List<Factory> Factories;
     }
 }

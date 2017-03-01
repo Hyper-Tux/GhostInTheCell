@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhostInTheCell.DAO
 {
-    class Ressources
+    class Ressources : Utils.Singleton<Ressources>
     {
     }
 }

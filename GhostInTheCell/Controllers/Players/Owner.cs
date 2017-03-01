@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GhostInTheCell.Players
+namespace GhostInTheCell.Controllers
 {
     public enum OwnerEnum : int { Me = 1, Neutral = 0, Opponent = -1 }
 

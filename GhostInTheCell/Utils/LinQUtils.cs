@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhostInTheCell.Utils
 {
-    class LinQUtils
+    public static class LinQUtils
     {
         public static List<T> MergeToList<T>(this IEnumerable<IEnumerable<T>> source)
         {

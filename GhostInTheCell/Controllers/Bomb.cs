@@ -8,5 +8,9 @@ namespace GhostInTheCell.Controllers
 {
     class Bomb : Entity
     {
+
+        public Bomb(uint id)
+            : base(id)
+        { }
     }
 }

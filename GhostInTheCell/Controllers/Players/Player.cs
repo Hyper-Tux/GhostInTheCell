@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GhostInTheCell.Players
+namespace GhostInTheCell.Controllers
 {
     public enum PlayerEnum { Ally, Vilain, Both }
 
