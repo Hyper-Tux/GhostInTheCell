@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A3855A36-B043-4738-A7F3-52F134AA4EB8}</ProjectGuid>
+    <ProjectGuid>{93DC6659-8AD2-4DCC-B10F-BB64825E86FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GhostInTheCell</RootNamespace>
-    <AssemblyName>GhostInTheCell</AssemblyName>
+    <RootNamespace>Original</RootNamespace>
+    <AssemblyName>Original</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\Bomb.cs" />
-    <Compile Include="Controllers\Entity.cs" />
-    <Compile Include="Controllers\Factory.cs" />
-    <Compile Include="Controllers\Graph.cs" />
-    <Compile Include="Controllers\Link.cs" />
-    <Compile Include="Controllers\Troop.cs" />
-    <Compile Include="DAO\BombDAO.cs" />
-    <Compile Include="DAO\EntityDAO.cs" />
-    <Compile Include="DAO\FactoryDAO.cs" />
-    <Compile Include="DAO\LinkDAO.cs" />
-    <Compile Include="DAO\Ressources.cs" />
-    <Compile Include="DAO\TroopDAO.cs" />
-    <Compile Include="Players\Owner.cs" />
-    <Compile Include="Players\Player.cs" />
-    <Compile Include="Players\Team.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\LinQUtils.cs" />
-    <Compile Include="Utils\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

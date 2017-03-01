@@ -42,7 +42,6 @@ class Player
 
             // Write an action using Console.WriteLine()
             // To debug: Console.Error.WriteLine("Debug messages...");
-            Console.Error.WriteLine(inputs);
 
             // Any valid action, such as "WAIT" or "MOVE source destination cyborgs"
             Console.WriteLine("WAIT");
